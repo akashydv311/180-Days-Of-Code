@@ -22,7 +22,7 @@ bool isPalindrome(int x)
     {
         rem = x % 10;
         x /= 10;
-        if (end > INT_MAX / 10 || end < INT_MIN / 10)
+        if (end > INT_MAX / 10)
         {
             return false;
         }
