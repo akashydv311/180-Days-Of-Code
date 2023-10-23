@@ -8,13 +8,11 @@ void chnageChar01(char &ch)
     if (ch >= 'A' && ch <= 'z')
     {
         if (ch < 'a')
-        {
+            // chnage 'a' -> 'A'
             ch = ch + 25 + (int('a') - int('Z'));
-        }
         else
-        {
+            // chnage 'A' -> 'a'
             ch = ch - 25 + (int('Z') - int('a'));
-        }
     }
     else
     {
@@ -32,7 +30,7 @@ void chnageChar02(char &ch)
         if (ch >= 'a' && ch <= 'z')
             ch = ch - 'a' + 'A';
         // chnage 'A' -> 'a'
-        else if (ch >= 'A' && ch <= 'Z')
+        else
             ch = ch - 'A' + 'a';
     }
     else
