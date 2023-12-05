@@ -34,7 +34,7 @@ int main()
     int num;
     cout << "Enter number: ";
     cin >> num;
-    // cout number of digit
+    // cout number of
     int count = coutNumberDig(num);
     bool result = isArmstrong(num, count);
     // cout << count << endl;
