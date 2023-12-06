@@ -10,6 +10,7 @@ int TrailingZeros(int N)
         count += N / 5;
         N /= 5;
     }
+
     return count;
 }
 
