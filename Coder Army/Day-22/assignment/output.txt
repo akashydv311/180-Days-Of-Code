@@ -1,1 +1,1 @@
-Second large: 23
+Third Smallest : 34
