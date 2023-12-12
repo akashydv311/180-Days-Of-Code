@@ -1,0 +1,2 @@
+Enter a number in an array: 
+Avrage of an arrays is: 9
