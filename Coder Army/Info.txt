@@ -3,9 +3,18 @@
 using namespace std;
 int main()
 {
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    return true;
+}
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
     
     return true;
 }
 
-freopen("input.txt", "r", stdin);
-freopen("D:/out.txt", "w", stdout);
+
