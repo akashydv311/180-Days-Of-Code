@@ -6,7 +6,7 @@ int main()
     // input.txt output.txt created
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    return true;
+    return 0;
 }
 
 
@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     
-    return true;
+    return 0;
 }
 
 
