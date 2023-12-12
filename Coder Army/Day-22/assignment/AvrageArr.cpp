@@ -16,8 +16,10 @@ int main()
         freopen("input.txt", "r", stdin);
         freopen("D:/out.txt", "w", stdout);
         // taking input
+
         cout << "Enter a number in an array: " << endl;
         int sizeOfArray = sizeof(arr) / sizeof(arr[0]);
+
         int sum = 0;
         for (int i = 0; i < sizeOfArray; i++)
         {
