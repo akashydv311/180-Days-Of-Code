@@ -5,7 +5,6 @@ int print2largest(int arr[], int n)
 {
     // code here
     int largest = INT16_MIN;
-    int second = -1;
 
     // find largest element
     for (int i = 0; i < n; i++)
@@ -14,6 +13,8 @@ int print2largest(int arr[], int n)
             largest = arr[i];
     }
     // find second largest
+    int second = -1;
+
     for (int i = 0; i < n; i++)
     {
         if (largest != arr[i])
