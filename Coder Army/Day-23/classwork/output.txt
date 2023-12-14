@@ -1,1 +1,1 @@
-Second Largest is: 45
+3
