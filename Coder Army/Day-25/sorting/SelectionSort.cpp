@@ -2,8 +2,16 @@
 using namespace std;
 int main()
 {
-    int n = 6;
-    int arr[n] = {67, 34, 23, 45, 2, 34};
+    // taking array size from user
+    int n;
+    cout << "Enter a size for array: ";
+    cin >> n;
+    int arr[n];
+
+    // taking values in array from use
+    cout << "Enter values in " << n << " Size array: " << endl;
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
 
     // impliment a selection sort
     for (int i = 0; i < n; i++)
