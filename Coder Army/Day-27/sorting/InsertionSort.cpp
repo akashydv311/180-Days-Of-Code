@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    // final sorted array
+    // final sorted array printed
     cout << "Sorted Array: ";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
