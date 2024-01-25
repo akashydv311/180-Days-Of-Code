@@ -1,0 +1,43 @@
+
+
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        // set the start and end
+        int start = 0, end = (sizeof(nums) / sizeof(nums[0])) - 1;
+        int mid = -1;
+
+        // loop bracking condition
+        while(start <= end){
+            // find mid
+            mid = (start + end)/ 2;
+            //if element is find at mid
+            if( nums[mid] == target)
+                // return index of mid
+                return mid;
+            else if( nums[mid] < target)
+                // then move right -> shift start at mid+1
+                start = mid + 1;
+            else
+                // then move left -> shift end mid-1 
+                end = mid - 1;
+        }
+        // if element is not present then return -1
+        return -1;
+    }
+};
+
+I write this code on leetcode 
+
+**************************************************************
+
+if i find the mid like this
+
+mid = start + end / 2;
+    Then it gives time limit exceeded error
+but,
+mid = (start + end)/ 2;
+    This is fine whey??
+
+
+
