@@ -1,1 +1,1 @@
-Mount element index : 5
+Minimun Element : 1
