@@ -15,10 +15,15 @@ int main()
     vector<int> vector3{34, 45, 56, 67, 78, 89};
 
     // print values
-    cout << "Vectore 3 value: ";
+    cout << "Vector 3 value: ";
     for (const int &i : vector3)
-        cout
-            << i << " ";
+        cout << i << " ";
+
+    cout << "\n";
+    // print
+    cout << "Vector 2 value: ";
+    for (int i = 0; i < vector2.size(); i++)
+        cout << vector2.at(i) << " ";
 
     return 0;
 }
